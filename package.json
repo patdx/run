@@ -9,11 +9,12 @@
   "unpkg": "dist/run.umd.js",
   "scripts": {
     "build": "microbundle --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream",
-    "dev": "microbundle watch --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream"
+    "dev": "microbundle watch --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream",
+    "do-publish": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.0.1",
     "@types/split2": "^2.1.6",
