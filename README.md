@@ -57,7 +57,7 @@ stderr: stderr line
 - A UMD build is also included, but it's up to the user to provide all of the
   required Node libraries in this case.
 
-# some other ideas I'd like to explore:
+# Some other ideas I'd like to explore:
 
 - handle the output in node-pty to sent window width info directly to the
   command being executed
