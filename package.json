@@ -1,0 +1,31 @@
+{
+  "name": "@patdx/run",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/run.ts",
+  "main": "dist/run.js",
+  "types": "dist/run.d.ts",
+  "module": "dist/run.modern.js",
+  "unpkg": "dist/run.umd.js",
+  "scripts": {
+    "build": "microbundle --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream",
+    "dev": "microbundle watch --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/split2": "^2.1.6",
+    "@types/window-size": "^0.2.5",
+    "@types/wrap-ansi": "^3.0.0",
+    "chalk": "^4.0.0",
+    "execa": "^4.0.1",
+    "microbundle": "^0.12.0",
+    "prettier": "^2.0.5",
+    "split2": "^3.1.1",
+    "typescript": "^3.9.2",
+    "window-size": "^1.1.1",
+    "wrap-ansi": "^7.0.0"
+  }
+}

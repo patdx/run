@@ -1,0 +1,4 @@
+// https://github.com/developit/microbundle/issues/522
+{
+  "plugins": [["@babel/plugin-proposal-optional-chaining"]]
+}
