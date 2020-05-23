@@ -12,7 +12,9 @@
   "scripts": {
     "build": "microbundle --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream",
     "dev": "microbundle watch --external os,stream,child_process,tty,events,buffer,assert --format modern,cjs,umd --alias readable-stream=stream",
-    "do-publish": "npm publish --access public"
+    "do-publish": "npm publish --access public",
+    "test": "mkdir -p dist && node test.js | tee ./dist/test.log",
+    "now-build": "npm run build && npm run test"
   },
   "keywords": [],
   "author": "",
