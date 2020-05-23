@@ -8,17 +8,27 @@ import wrapAnsi from 'wrap-ansi';
 const prefix = (prefix: string) => {
   return new Transform({
     transform(chunk, _encoding, callback) {
-      const fullWidth = windowSize.width;
-      const prefixWidth = prefix.length + 2;
-      const contentMaxWidth = fullWidth - prefixWidth;
+      const fullWidth = windowSize?.width;
 
-      const content = `${chunk.toString()}`;
+      // if window size is available, prepare into multiple lines
 
-      const contentLines = wrapAnsi(content, contentMaxWidth, {
-        hard: true,
-      }).split('\n');
-      // joined by /n so we just undo it
-      // https://github.com/chalk/wrap-ansi/blob/master/index.js#L215
+      const content = chunk.toString();
+
+      const contentLines = (() => {
+        if (fullWidth) {
+          const prefixWidth = prefix.length + 2;
+          const contentMaxWidth = fullWidth - prefixWidth;
+
+          return wrapAnsi(content, contentMaxWidth, {
+            hard: true,
+          }).split('\n');
+          // joined by /n so we just undo it
+          // https://github.com/chalk/wrap-ansi/blob/master/index.js#L215
+        } else {
+          // if it does not exist, we may be in a no-shell environment like Now builder
+          return [content];
+        }
+      })();
 
       contentLines.forEach((line, index) => {
         this.push(`${prefix}${index === 0 ? ': ' : '↳ '}${line}${os.EOL}`);
