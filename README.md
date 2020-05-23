@@ -2,6 +2,8 @@
 
 This is a tool to run some script/command.
 
+Latest compiled code previewable at: https://patdx-run.now.sh
+
 The goal is to have a command runner that is easy to integrate into various
 build scripts, and automatically have nice CLI output (including prefixing, line
 wrapping), and automatically have nice text file output, without having to worry
