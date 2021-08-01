@@ -24,7 +24,7 @@
     "@types/split2": "3.2.1",
     "@types/window-size": "0.2.5",
     "@types/wrap-ansi": "8.0.1",
-    "chalk": "4.1.1",
+    "chalk": "4.1.2",
     "execa": "5.1.1",
     "microbundle": "0.13.3",
     "prettier": "2.3.2",
