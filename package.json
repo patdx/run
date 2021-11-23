@@ -20,7 +20,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "16.11.9",
+    "@types/node": "16.11.10",
     "@types/split2": "3.2.1",
     "@types/window-size": "1.1.0",
     "@types/wrap-ansi": "8.0.1",
