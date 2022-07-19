@@ -1,2 +1,2 @@
-const { node } = require('.');
+import { node } from '@patdx/run';
 node('./test-cmd.js');

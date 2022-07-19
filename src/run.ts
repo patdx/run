@@ -1,4 +1,4 @@
-import execa from 'execa';
+import { execaNode } from 'execa';
 import windowSize from 'window-size';
 import { Transform } from 'stream';
 import split2 from 'split2';
@@ -40,7 +40,7 @@ const prefix = (prefix: string) => {
 };
 
 export async function node(scriptPath: string) {
-  const myProcess = execa.node(scriptPath, {
+  const myProcess = execaNode(scriptPath, {
     buffer: false,
     env: { FORCE_COLOR: '2' },
   });
