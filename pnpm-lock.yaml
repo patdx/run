@@ -10,7 +10,7 @@ specifiers:
   microbundle: 0.15.1
   prettier: 2.7.1
   split2: 4.1.0
-  typescript: 4.8.4
+  typescript: 4.9.3
   window-size: 1.1.1
   wrap-ansi: 8.0.1
 
@@ -24,7 +24,7 @@ devDependencies:
   microbundle: 0.15.1
   prettier: 2.7.1
   split2: 4.1.0
-  typescript: 4.8.4
+  typescript: 4.9.3
   window-size: 1.1.1
   wrap-ansi: 8.0.1
 
@@ -2711,13 +2711,13 @@ packages:
       rollup-plugin-bundle-size: 1.0.3
       rollup-plugin-postcss: 4.0.2_postcss@8.4.14
       rollup-plugin-terser: 7.0.2_rollup@2.77.0
-      rollup-plugin-typescript2: 0.32.1_lqcg7cm2mirt2n7bp5q7bbj6vq
+      rollup-plugin-typescript2: 0.32.1_zmzu4vmvgk7nic36bccls5ucve
       rollup-plugin-visualizer: 5.7.1_rollup@2.77.0
       sade: 1.8.1
       terser: 5.14.2
       tiny-glob: 0.2.9
       tslib: 2.4.0
-      typescript: 4.8.4
+      typescript: 4.9.3
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
@@ -3467,7 +3467,7 @@ packages:
       terser: 5.14.2
     dev: true
 
-  /rollup-plugin-typescript2/0.32.1_lqcg7cm2mirt2n7bp5q7bbj6vq:
+  /rollup-plugin-typescript2/0.32.1_zmzu4vmvgk7nic36bccls5ucve:
     resolution: {integrity: sha512-RanO8bp1WbeMv0bVlgcbsFNCn+Y3rX7wF97SQLDxf0fMLsg0B/QFF005t4AsGUcDgF3aKJHoqt4JF2xVaABeKw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -3479,7 +3479,7 @@ packages:
       resolve: 1.22.1
       rollup: 2.77.0
       tslib: 2.4.0
-      typescript: 4.8.4
+      typescript: 4.9.3
     dev: true
 
   /rollup-plugin-visualizer/5.7.1_rollup@2.77.0:
@@ -3767,8 +3767,8 @@ packages:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
-  /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
