@@ -5,7 +5,7 @@ specifiers:
   '@types/split2': 3.2.1
   '@types/window-size': 1.1.1
   '@types/wrap-ansi': 8.0.1
-  chalk: 5.1.2
+  chalk: 5.2.0
   execa: 6.1.0
   microbundle: 0.15.1
   prettier: 2.8.1
@@ -19,7 +19,7 @@ devDependencies:
   '@types/split2': 3.2.1
   '@types/window-size': 1.1.1
   '@types/wrap-ansi': 8.0.1
-  chalk: 5.1.2
+  chalk: 5.2.0
   execa: 6.1.0
   microbundle: 0.15.1
   prettier: 2.8.1
@@ -1720,8 +1720,8 @@ packages:
       supports-color: 7.2.0
     dev: true
 
-  /chalk/5.1.2:
-    resolution: {integrity: sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==}
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
