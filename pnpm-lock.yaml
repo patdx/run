@@ -12,7 +12,7 @@ specifiers:
   split2: 4.1.0
   typescript: 4.9.4
   window-size: 1.1.1
-  wrap-ansi: 8.0.1
+  wrap-ansi: 8.1.0
 
 devDependencies:
   '@types/node': 18.11.18
@@ -26,7 +26,7 @@ devDependencies:
   split2: 4.1.0
   typescript: 4.9.4
   window-size: 1.1.1
-  wrap-ansi: 8.0.1
+  wrap-ansi: 8.1.0
 
 packages:
 
@@ -3861,8 +3861,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /wrap-ansi/8.0.1:
-    resolution: {integrity: sha512-QFF+ufAqhoYHvoHdajT/Po7KoXVBPXS2bgjIam5isfWJPfIOnQZ50JtUiVvCv/sjgacf3yRrt2ZKUZ/V4itN4g==}
+  /wrap-ansi/8.1.0:
+    resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
     dependencies:
       ansi-styles: 6.1.0
