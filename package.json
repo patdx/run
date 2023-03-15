@@ -29,7 +29,7 @@
     "@types/window-size": "1.1.1",
     "@types/wrap-ansi": "8.0.1",
     "chalk": "5.2.0",
-    "execa": "7.1.0",
+    "execa": "7.1.1",
     "microbundle": "0.15.1",
     "prettier": "2.8.4",
     "split2": "4.1.0",
