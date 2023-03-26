@@ -9,7 +9,7 @@ specifiers:
   execa: 7.1.1
   microbundle: 0.15.1
   prettier: 2.8.7
-  split2: 4.1.0
+  split2: 4.2.0
   typescript: 5.0.2
   window-size: 1.1.1
   wrap-ansi: 8.1.0
@@ -23,7 +23,7 @@ devDependencies:
   execa: 7.1.1
   microbundle: 0.15.1
   prettier: 2.8.7
-  split2: 4.1.0
+  split2: 4.2.0
   typescript: 5.0.2
   window-size: 1.1.1
   wrap-ansi: 8.1.0
@@ -3600,8 +3600,8 @@ packages:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
 
-  /split2/4.1.0:
-    resolution: {integrity: sha512-VBiJxFkxiXRlUIeyMQi8s4hgvKCSjtknJv/LVYbrgALPwf5zSKmEwV9Lst25AkvMDnvxODugjdl6KZgwKM1WYQ==}
+  /split2/4.2.0:
+    resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
     engines: {node: '>= 10.x'}
     dev: true
 
