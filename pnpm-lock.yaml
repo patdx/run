@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@types/node':
-    specifier: 18.18.1
-    version: 18.18.1
+    specifier: 18.18.4
+    version: 18.18.4
   '@types/split2':
     specifier: 4.2.1
     version: 4.2.1
@@ -1465,8 +1465,8 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
-  /@types/node@18.18.1:
-    resolution: {integrity: sha512-3G42sxmm0fF2+Vtb9TJQpnjmP+uKlWvFa8KoEGquh4gqRmoUG/N0ufuhikw6HEsdG2G2oIKhog1GCTfz9v5NdQ==}
+  /@types/node@18.18.4:
+    resolution: {integrity: sha512-t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==}
     dev: true
 
   /@types/parse-json@4.0.0:
@@ -1476,19 +1476,19 @@ packages:
   /@types/resolve@1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 18.18.1
+      '@types/node': 18.18.4
     dev: true
 
   /@types/split2@4.2.1:
     resolution: {integrity: sha512-QwkIwu4daHHpmRYhKIUxQjpVKxKMAniJOiu50ST7vHzFQFrvtGj3d8BJZfqgkAEir/oOcgg43WX5G2VHC6NFtw==}
     dependencies:
-      '@types/node': 18.18.1
+      '@types/node': 18.18.4
     dev: true
 
   /@types/window-size@1.1.2:
     resolution: {integrity: sha512-embnSZCrbJFcq691/Op13fqJUzvKNnt3XxDSD4c7XE3p+RJ4te6KNjBR0VYWz0K/s1uBnjQ3v5icBHng+PCt8A==}
     dependencies:
-      '@types/node': 18.18.1
+      '@types/node': 18.18.4
     dev: true
 
   /@types/wrap-ansi@8.0.1:
@@ -2559,7 +2559,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 18.18.1
+      '@types/node': 18.18.4
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
