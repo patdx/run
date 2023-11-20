@@ -33,7 +33,7 @@
     "microbundle": "0.15.1",
     "prettier": "3.1.0",
     "split2": "4.2.0",
-    "typescript": "5.2.2",
+    "typescript": "5.3.2",
     "window-size": "1.1.1",
     "wrap-ansi": "9.0.0"
   }
