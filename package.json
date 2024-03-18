@@ -24,7 +24,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "20.11.28",
+    "@types/node": "20.11.29",
     "@types/split2": "4.2.3",
     "@types/window-size": "1.1.4",
     "@types/wrap-ansi": "8.0.2",
