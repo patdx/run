@@ -24,7 +24,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "20.14.6",
+    "@types/node": "20.14.7",
     "@types/split2": "4.2.3",
     "@types/window-size": "1.1.4",
     "@types/wrap-ansi": "8.1.0",
@@ -33,7 +33,7 @@
     "microbundle": "0.15.1",
     "prettier": "3.3.2",
     "split2": "4.2.0",
-    "typescript": "5.4.5",
+    "typescript": "5.5.2",
     "window-size": "1.1.1",
     "wrap-ansi": "9.0.0"
   }
